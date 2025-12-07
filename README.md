@@ -5,6 +5,12 @@
 
 [「シン・今年の新語」選考規程](regulations.md)
 
+## 過去の選考結果・データシート
+
+* [シン・今年の新語2025](./Archives/2025_datasheet.md)
+* [シン・今年の新語2024](./Archives/2024_datasheet.md)
+* [シン・今年の新語2023](./Archives/2023_datasheet.md)
+
 ## 選考・発表の流れ
 大まかなスケジュール感です。
 
