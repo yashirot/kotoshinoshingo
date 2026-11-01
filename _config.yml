@@ -1,6 +1,11 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-primer        # primer（GitHub の表示に近い、本文幅が広い）
 title: シン・今年の新語
 lang: ja
+
+markdown: CommonMarkGhPages       # GitHub と同じ GFM 系の変換に切り替える
+commonmark:
+  options: ["UNSAFE", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 
 plugins:
   - jekyll-optional-front-matter   # front matter なしの .md も変換する
