@@ -1,0 +1,19 @@
+theme: jekyll-theme-minimal
+title: シン・今年の新語
+lang: ja
+
+plugins:
+  - jekyll-optional-front-matter   # front matter なしの .md も変換する
+  - jekyll-relative-links          # [..](xxx.md) を公開時に .html へ変換する
+  - jekyll-readme-index            # README.md をトップページにする
+  - jekyll-titles-from-headings    # 最初の見出しをページタイトルにする
+
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
